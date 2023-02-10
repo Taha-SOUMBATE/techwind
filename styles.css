@@ -7,13 +7,9 @@
   font-family: "Nunito", sans-serif;
 }
 
-:root {
-  --primary: #dc0a16;
-}
-
 .text-danger,
 .list-inline .list-icon a i {
-  color: var(--primary);
+  color: #dc0a16;
 }
 
 .header {
@@ -40,7 +36,7 @@
 
 .menu-nav-list .menu-nav-link:hover,
 .menu-nav-list .active {
-  color: var(--primary);
+  color: #dc0a16;
 }
 
 .list-inline li {
@@ -54,11 +50,11 @@
 .list-inline .list-icon {
   padding: 7px 10px;
   border-radius: 50%;
-  border: 1px solid var(--primary);
+  border: 1px solid#dc0a16;
 }
 
 .list-inline .list-icon.active {
-  background-color: var(--primary);
+  background-color: #dc0a16;
 }
 
 .list-inline .list-icon.active i {
@@ -67,7 +63,7 @@
 
 main .hero {
   background-image: url("imege/bg.png");
-  background-size: cover;
+
   background-repeat: no-repeat;
   position: relative;
   padding: 100px 0;
@@ -113,7 +109,7 @@ main .hero .hero-content h1 {
 }
 
 .btn-primary {
-  background-color: var(--primary);
+  background-color: #dc0a16;
   border: none;
   color: #fff;
   padding: 10px 20px;
@@ -130,7 +126,7 @@ main .hero .hero-content h1 {
   color: #000;
   padding: 15px;
   border-radius: 5px;
-  border-top: 6px solid var(--primary);
+  border-top: 6px solid#dc0a16;
 }
 
 .make-donate h3 {
@@ -212,7 +208,7 @@ select:focus {
 }
 
 main .stats {
-  background-color: var(--primary);
+  background-color: #dc0a16;
   color: #fff;
   padding: 40px 120px;
   text-align: center;
@@ -236,7 +232,7 @@ main .stats {
   background-image: url("imege/about.jpg");
   background-position: center;
   border-radius: 50%;
-  border-left: 5px solid var(--primary);
+  border-left: 5px solid#dc0a16;
 }
 
 .about .row .col:nth-child(2) {
@@ -325,7 +321,7 @@ main .stats {
   display: block;
   width: 45%;
   position: absolute;
-  border-bottom: 8px solid var(--primary);
+  border-bottom: 8px solid#dc0a16;
   border-radius: 5px;
 }
 
@@ -360,9 +356,6 @@ main .stats {
   padding: 150px 300px;
   color: #fff;
   text-align: center;
-}
-
-footer {
 }
 
 @media screen and (max-width: 900px) {
